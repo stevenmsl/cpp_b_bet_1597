@@ -16,10 +16,10 @@ using namespace std;
          stack as its second operand 2 hasn't been
          scanned yet
        - when you see +, which has a lower priority
-         than *, it will signals that * can build that
+         than *, it will signal that * can build that
          expression tree 1*2 now
        - why? we need 1*2 to be closer to the bottom
-         of the tree per the requirements so it need
+         of the tree per the requirements so it needs
          to build first
        - so who is going to tell + to build its expression?
          - there is no operator coming in any more
